@@ -1,20 +1,39 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+FinTrust India
 
-# Run and deploy your AI Studio app
+A modern financial calculator platform built for Indian users.
 
-This contains everything you need to run your app locally.
+FinTrust India provides fast, accurate, and mobile-friendly financial calculators for investments, taxes, loans, and personal finance planning. The platform is designed with a fintech-first user experience, focusing on simplicity, speed, and SEO-driven discoverability.
 
-View your app in AI Studio: https://ai.studio/apps/408b9088-8631-4e2b-8226-50ae149bd6d6
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Features
+Investment Calculators
+SIP Calculator
+Lumpsum Calculator
+CAGR Calculator
+SWP Calculator
+Retirement Calculator
+Compound Interest Calculator
+Loan Calculators
+EMI Calculator
+Home Loan Calculator
+Car Loan Calculator
+Personal Loan Calculator
+Tax & Salary Calculators
+Income Tax Calculator
+New vs Old Tax Regime Calculator
+HRA Calculator
+Gratuity Calculator
+PF Calculator
+Salary Hike Calculator
+Learning Center
+Financial education articles
+Investment guides
+Tax planning resources
+Comparison pages (SIP vs FD, etc.)
+SEO-optimized content structure
+Design Goals
+Mobile-first experience
+Fast loading performance
+Clean fintech-inspired UI
+Accessible and responsive design
+SEO-friendly architecture
+Simple and intuitive user journeys
