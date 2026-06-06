@@ -1,115 +1,121 @@
-FinTrust India
+# 💰 FinTrust India
 
-A modern financial calculator platform built for Indian users.
+> Modern financial calculators and planning tools for Indian investors.
 
-FinTrust India provides fast, accurate, and mobile-friendly financial calculators for investments, taxes, loans, and personal finance planning. The platform is designed with a fintech-first user experience, focusing on simplicity, speed, and SEO-driven discoverability.
+![Next.js](https://img.shields.io/badge/Next.js-15-black)
+![TypeScript](https://img.shields.io/badge/TypeScript-Blue)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-Features
-Investment Calculators
-SIP Calculator
-Lumpsum Calculator
-CAGR Calculator
-SWP Calculator
-Retirement Calculator
-Compound Interest Calculator
-Loan Calculators
-EMI Calculator
-Home Loan Calculator
-Car Loan Calculator
-Personal Loan Calculator
-Tax & Salary Calculators
-Income Tax Calculator
-New vs Old Tax Regime Calculator
-HRA Calculator
-Gratuity Calculator
-PF Calculator
-Salary Hike Calculator
-Learning Center
-Financial education articles
-Investment guides
-Tax planning resources
-Comparison pages (SIP vs FD, etc.)
-SEO-optimized content structure
-Design Goals
-Mobile-first experience
-Fast loading performance
-Clean fintech-inspired UI
-Accessible and responsive design
-SEO-friendly architecture
-Simple and intuitive user journeys
+---
 
+## 🚀 Overview
 
+FinTrust India is a fintech-focused platform that helps users make smarter financial decisions through powerful calculators, educational content, and intuitive financial planning tools.
 
-Tech Stack
-Frontend
-Next.js 15
-TypeScript
-Tailwind CSS
-shadcn/ui
-Visualization
-Recharts
-Deployment
-Vercel
-Analytics
-Google Analytics
-Google Search Console
-Project Structure
+Built with performance, SEO, and mobile-first usability in mind.
+
+### ✨ What Users Can Do
+
+* Calculate SIP returns
+* Estimate EMI payments
+* Compare tax regimes
+* Calculate HRA exemptions
+* Measure CAGR growth
+* Explore financial guides and comparisons
+
+---
+
+## 📸 Preview
+
+<p align="center">
+  <img src="./public/screenshots/homepage.png" width="800" />
+</p>
+
+---
+
+## 🛠 Features
+
+### Investment Tools
+
+* SIP Calculator
+* Lumpsum Calculator
+* CAGR Calculator
+* SWP Calculator
+* Retirement Calculator
+
+### Loan Tools
+
+* EMI Calculator
+* Home Loan Calculator
+* Personal Loan Calculator
+
+### Tax Tools
+
+* Income Tax Calculator
+* New vs Old Tax Regime
+* HRA Calculator
+* PF Calculator
+* Gratuity Calculator
+
+### Learn Center
+
+* SIP vs FD
+* What is CAGR?
+* Tax Saving Strategies
+* Financial Planning Guides
+
+---
+
+## 🏗 Tech Stack
+
+| Technology  | Purpose            |
+| ----------- | ------------------ |
+| Next.js 15  | Frontend Framework |
+| TypeScript  | Type Safety        |
+| TailwindCSS | Styling            |
+| shadcn/ui   | Components         |
+| Recharts    | Financial Charts   |
+| Vercel      | Deployment         |
+
+---
+
+## 📂 Project Structure
+
+```bash
 app/
-├── page.tsx
 ├── calculators/
-│   ├── sip/
-│   ├── emi/
-│   ├── income-tax/
-│   ├── cagr/
-│   └── fd/
-│
 ├── learn/
-│   ├── page.tsx
-│   ├── sip-vs-fd/
-│   └── how-much-sip-for-1-crore/
-│
-components/
-├── navbar/
-├── footer/
-├── calculator/
-├── charts/
-├── faq/
-└── article/
-Key Features
-SEO Optimized
-Dynamic metadata
-Structured data
-FAQ schema
-Article schema
-Breadcrumb schema
-Internal linking strategy
-Performance Focused
-Server-side rendering
-Optimized images
-Mobile-first design
-Fast Core Web Vitals
-Reusable Calculator Architecture
+├── components/
+├── lib/
+├── hooks/
+└── public/
+```
 
-All calculators share a common layout and component system, making it easy to add new tools with minimal development effort.
+---
 
-Roadmap
-Phase 1
-Core calculator launch
-SIP Calculator
-EMI Calculator
-Income Tax Calculator
-HRA Calculator
-Phase 2
-Learning Center
-Financial guides
-Comparison articles
-Calculator SEO pages
-Phase 3
-Programmatic SEO
-Advanced financial tools
-Portfolio calculators
-Retirement planning suite
-Phase 4
-AI-powered financial insights
-Personalized recommendations
-Goal planning assistant
+## 🎯 Design Philosophy
+
+* Mobile First
+* Fast Loading
+* Fintech Inspired
+* SEO Optimized
+* Accessibility Focused
+* Clean Financial UI
+
+---
+
+## 📈 Roadmap
+
+* [x] Homepage Design
+* [x] SIP Calculator
+* [x] EMI Calculator
+* [x] Income Tax Calculator
+* [x] Learn Center
+* [ ] Advanced Retirement Tools
+* [ ] Portfolio Planner
+* [ ] AI Financial Insights
+* [ ] Goal Planning Dashboard
+
+---
+
