@@ -37,3 +37,79 @@ Clean fintech-inspired UI
 Accessible and responsive design
 SEO-friendly architecture
 Simple and intuitive user journeys
+
+
+
+Tech Stack
+Frontend
+Next.js 15
+TypeScript
+Tailwind CSS
+shadcn/ui
+Visualization
+Recharts
+Deployment
+Vercel
+Analytics
+Google Analytics
+Google Search Console
+Project Structure
+app/
+├── page.tsx
+├── calculators/
+│   ├── sip/
+│   ├── emi/
+│   ├── income-tax/
+│   ├── cagr/
+│   └── fd/
+│
+├── learn/
+│   ├── page.tsx
+│   ├── sip-vs-fd/
+│   └── how-much-sip-for-1-crore/
+│
+components/
+├── navbar/
+├── footer/
+├── calculator/
+├── charts/
+├── faq/
+└── article/
+Key Features
+SEO Optimized
+Dynamic metadata
+Structured data
+FAQ schema
+Article schema
+Breadcrumb schema
+Internal linking strategy
+Performance Focused
+Server-side rendering
+Optimized images
+Mobile-first design
+Fast Core Web Vitals
+Reusable Calculator Architecture
+
+All calculators share a common layout and component system, making it easy to add new tools with minimal development effort.
+
+Roadmap
+Phase 1
+Core calculator launch
+SIP Calculator
+EMI Calculator
+Income Tax Calculator
+HRA Calculator
+Phase 2
+Learning Center
+Financial guides
+Comparison articles
+Calculator SEO pages
+Phase 3
+Programmatic SEO
+Advanced financial tools
+Portfolio calculators
+Retirement planning suite
+Phase 4
+AI-powered financial insights
+Personalized recommendations
+Goal planning assistant
