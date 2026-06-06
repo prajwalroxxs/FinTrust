@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-brand-bg: #06142B;
+  --color-brand-panel: #0B1736;
+  --color-brand-accent: #00E6A7;
+  --color-brand-accent-glow: rgba(0, 230, 167, 0.15);
+  --color-brand-border: rgba(255, 255, 255, 0.08);
+  --color-brand-text-primary: #FFFFFF;
+  --color-brand-text-secondary: #D1D5DB;
+  --color-brand-text-muted: #9CA3AF;
+}
+
+/* Global body accessibility rules - WCAG AA standards */
+html, body {
+  background-color: #06142B;
+  color: #FFFFFF;
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+/* High-contrast clamp typography definitions with strong font-weights */
+h1 {
+  font-family: var(--font-sans);
+  font-size: clamp(2rem, 5vw, 3.25rem);
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: -0.025em;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-family: var(--font-sans);
+  font-size: clamp(1.5rem, 4vw, 2.25rem);
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+}
+
+h3 {
+  font-family: var(--font-sans);
+  font-size: clamp(1.2rem, 3vw, 1.5rem);
+  font-weight: 700;
+  line-height: 1.4;
+  color: #FFFFFF;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.75;
+  color: #D1D5DB;
+}
+
+/* Scrollbar customization for design completeness */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #06142B;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 230, 167, 0.4);
+}

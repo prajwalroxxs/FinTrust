@@ -1,0 +1,8 @@
+{
+  "name": "Remix: FinTrust India",
+  "description": "A production-ready financial calculator platform for Indian investors. Includes SIP, EMI, Income Tax, CAGR, and FD calculators with elegant charts and learning modules.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
